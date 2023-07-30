@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.crypto-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.coin-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 5;
+}
+
+.currency-logo {
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.usd {
+  flex-grow: 1;
+}
+.euro {
+  flex-grow: 1;
+}
